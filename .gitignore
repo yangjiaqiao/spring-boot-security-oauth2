@@ -1,0 +1,7 @@
+# Project exclude paths
+/spring-boot-oauth2-auto-simple/target/
+/spring-security-oauth2-authorization/target/
+/spring-security-oauth2-authorization-expansion/target/
+/spring-security-oauth2-authorization-jwt/target/
+/spring-security-oauth2-authorization-mysql/target/
+/spring-security-oauth2-authorization-redis/target/

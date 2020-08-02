@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.95.128:3306/auth?useUnicode=true&characterEncoding=UTF-8&useOldAliasMetadataBehavior=true&autoReconnect=true&serverTimezone=UTC
+    username: root
+    password: 123456
+    # 用来初始化数据库的，如果不存在表就自动创建
+    # initialization-mode: ALWAYS
+    # schema: classpath:ddl.sql
+  redis:
+    host: 192.168.95.128
+    port: 6379
+    password:
